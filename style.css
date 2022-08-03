@@ -1,0 +1,121 @@
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight:300;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#info_button {
+  text-align: center;
+  margin:auto;
+  color: black;
+  font-size: 25px;
+}
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.container_navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.container_navbar a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container_navbar li {
+  display: inline;
+  float: right;
+}
+
+.container_navbar a:hover {
+  background-color: #111;
+}
+
+footer {
+  padding: 50px;
+  bottom: 0;
+  height: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  min-height: 50px;
+  background-color: #7a7979;
+  margin: 0;
+}
+
+#social_media {
+  list-style-type: none;
+  text-align: center;
+}
+
+.facebook a {
+  color: #0A80EC;
+}
+
+.linkedin a {
+  color: #2567B3;
+}
+
+.instagram a {
+  color: #e253c3;
+}
+
+#social_media li {
+  display: inline;
+}
+
+#social_media ul {
+  padding-left: 0;
+}
